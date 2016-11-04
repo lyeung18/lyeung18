@@ -1,0 +1,115 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+      background-color: #ffff00; /* Yellow*/
+      color: #000000;
+  }
+  .bg-2 {
+      background-color: #ffff99; /* Dark Blue */
+      color: #000000;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+      background-color: #000000; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ABOUT ME</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#who">WHO</a></li>
+        <li><a href="#About me">WHAT</a></li>
+        <li><a href="#What">ACCOMPLISHMENTS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center" id="who">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="asian-background.jpg" width="350" height="300">
+  <h1>I'm Leo Yeung</h1>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center" id="About me">
+  <h3 class="margin">About Me</h3>
+  <p>I am a 16 year old that goes to Mineola Highschool. My a ethnic background is Chinese. Also my spirit animal is a goat. </p> <br>
+    <img src="goat.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center" id="What">
+  <h3 class="margin">What I accomplished in life?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>I am well educated on how to build a website by using html and css. Like this website I made with a group <a href="https://mineolahs.github.io/HopeApp/">Hope App</a>.</p>
+    </div>
+    <div class="col-sm-4">
+      <p>I beat 2048</p>
+      <img src="2048.png" width="325" height="600">
+    </div>
+    <div class="col-sm-4">
+      <p>I know how to ride a Boosted Board.</p>
+      <a href="https://boostedboards.com/"><img src="boostedboard.jpg" width="400" height="400"></a>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>This is who I am</p>
+</footer>
+
+</body>
+</html>
